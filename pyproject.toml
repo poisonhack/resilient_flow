@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resilient-flow"
+version = "0.1.0"
+description = "A lightweight async utility for rate-limiting, retries, and batching"
+readme = "README.md"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "tqdm>=4.60.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/poisonhack/resilient-flow"
